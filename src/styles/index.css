@@ -9,3 +9,34 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.counter{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    min-width: 500px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.slate{
+    background-color: rgb(19, 19, 19);
+    border: solid 3px rgb(41, 40, 40);
+    min-width: 80px;
+    min-height: 120px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+#clockIco{
+    min-width: 120px;
+}
+
